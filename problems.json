@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "title": "Add Two Numbers",
+    "description": "Read two integers and print their sum.",
+    "starter_code": {
+      "71": "a, b = map(int,input().split())\n# write your code here",
+      "54": "#include <iostream>\nusing namespace std;\nint main() {\n  int a, b;\n  cin >> a >> b;\n  // write your code here\n  return 0;\n}",
+      "62": "import java.util.*;\npublic class Main {\n  public static void main(String[] args) {\n    Scanner sc = new Scanner(System.in);\n    int a = sc.nextInt();\n    int b = sc.nextInt();\n    // write your code here\n  }\n}"
+    },
+    "difficulty": "Easy",
+    "test_cases": [
+      { "input": "4 5", "output": "9\n" },
+      { "input": "10 20", "output": "30\n" }
+    ],
+    "samples": [
+      { "input": "4 5", "output": "9" },
+      { "input": "10 20", "output": "30" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Check Even or Odd",
+    "description": "Read an integer and print 'Even' if it's even, otherwise print 'Odd'.",
+    "starter_code": {
+      "71": "n = int(input())\n# write your code here",
+      "54": "#include <iostream>\nusing namespace std;\nint main() {\n  int n;\n  cin >> n;\n  // write your code here\n  return 0;\n}",
+      "62": "import java.util.*;\npublic class Main {\n  public static void main(String[] args) {\n    Scanner sc = new Scanner(System.in);\n    int n = sc.nextInt();\n    // write your code here\n  }\n}"
+    },
+    "difficulty": "Easy",
+    "test_cases": [
+      { "input": "4", "output": "Even\n" },
+      { "input": "7", "output": "Odd\n" }
+    ],
+    "samples": [
+      { "input": "4", "output": "Even" },
+      { "input": "7", "output": "Odd" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Factorial",
+    "description": "Read an integer and print its factorial.",
+    "starter_code": {
+      "71": "n = int(input())\n# write your code here",
+      "54": "#include <iostream>\nusing namespace std;\nint main() {\n  int n;\n  cin >> n;\n  // write your code here\n  return 0;\n}",
+      "62": "import java.util.*;\npublic class Main {\n  public static void main(String[] args) {\n    Scanner sc = new Scanner(System.in);\n    int n = sc.nextInt();\n    // write your code here\n  }\n}"
+    },
+    "difficulty": "Medium",
+    "test_cases": [
+      { "input": "5", "output": "120\n" },
+      { "input": "0", "output": "1\n" }
+    ],
+    "samples": [
+      { "input": "5", "output": "120" },
+      { "input": "0", "output": "1" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Reverse a String",
+    "description": "Read a string and print its reverse.",
+    "starter_code": {
+      "71": "s = input()\n# write your code here",
+      "54": "#include <iostream>\n#include <string>\nusing namespace std;\nint main() {\n  string s;\n  cin >> s;\n  // write your code here\n  return 0;\n}",
+      "62": "import java.util.*;\npublic class Main {\n  public static void main(String[] args) {\n    Scanner sc = new Scanner(System.in);\n    String s = sc.nextLine();\n    // write your code here\n  }\n}"
+    },
+    "difficulty": "Easy",
+    "test_cases": [
+      { "input": "hello", "output": "olleh\n" },
+      { "input": "racecar", "output": "racecar\n" }
+    ],
+    "samples": [
+      { "input": "hello", "output": "olleh" },
+      { "input": "racecar", "output": "racecar" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Find Maximum of Three Numbers",
+    "description": "Read three integers and print the maximum among them.",
+    "starter_code": {
+      "71": "a, b, c = map(int, input().split())\n# write your code here",
+      "54": "#include <iostream>\nusing namespace std;\nint main() {\n  int a, b, c;\n  cin >> a >> b >> c;\n  // write your code here\n  return 0;\n}",
+      "62": "import java.util.*;\npublic class Main {\n  public static void main(String[] args) {\n    Scanner sc = new Scanner(System.in);\n    int a = sc.nextInt();\n    int b = sc.nextInt();\n    int c = sc.nextInt();\n    // write your code here\n  }\n}"
+    },
+    "difficulty": "Hard",
+    "test_cases": [
+      { "input": "5 9 3", "output": "9\n" },
+      { "input": "7 7 7", "output": "7\n" }
+    ],
+    "samples": [
+      { "input": "5 9 3", "output": "9" },
+      { "input": "7 7 7", "output": "7" }
+    ]
+  }
+]
