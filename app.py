@@ -205,16 +205,15 @@ def submit():
     if user not in submissions:
         submissions[user] = {}
     user_submissions = submissions[user]
-# Update count
+
     if str(problem_id) not in user_submissions:
         user_submissions[str(problem_id)] = {"solved": False, "count": 0}
     user_submissions[str(problem_id)]["count"] += 1
-# If all test cases passed, mark as solved
     if all_passed:
         user_submissions[str(problem_id)]["solved"] = True
     save_submissions(submissions)
 
     return render_template('result.html', results=results, title=problem['title'])
 
-if __name__ == '__main__':
-    app.run(debug=True)
+#if __name__ == '__main__':
+    #app.run(debug=True)
